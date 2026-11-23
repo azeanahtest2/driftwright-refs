@@ -13,4 +13,5 @@ Single-image views cropped from the FV-2 concept sheets Aaron approved (14:10, f
 | scrap_01..04.png | Salvage: torn plate, girder, porthole frame, marked panel | `ISr3EholcwZ0v1FsVEnY` |
 | ore_01..04.png | Salvage: ferrite ore | `ISr3EholcwZ0v1FsVEnY` |
 
-The hull breach (`JhC3U4WWWrhTDYfpBZtu`) is held back: its panels include the vapour jet and black space, which Tripo would model as geometry.
+| breach_open.png | Hull breach: torn hole in a curved hull section (no vapour; the jet is an effect) | clean view `98A66qsQwILGhzSNB1fX`, from `JhC3U4WWWrhTDYfpBZtu` |
+| breach_patched.png | Hull breach: the same section patched | clean view `yRAkOxITZsnar3SiwPPX`, from `JhC3U4WWWrhTDYfpBZtu` |
