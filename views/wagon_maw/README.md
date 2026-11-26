@@ -14,3 +14,5 @@ Aaron (15:04): "I'm amenable to the design. it's loosely what I asked for. / ins
 
 - Map updated: the conveyor runs along the starboard wall, the walkway down the middle; to port the claw post and hold control post (facing the catcher; FV `brokkr_maw/fv_brokkr_claw_post`, `fv_hold_control_post`), the long boiler (the Hammerhead's forge-pit boiler, `fv_boiler_forge_pit`, 4.5 m lying lengthwise), the fabricator (`fv_fabricator`), parts and tool racks.
 - `render_guide_maw.png` (from `make_render_guide_maw.py`, which reads `_render_guide_b_base.py`): true-scale paint-over guide, port side and front, the Brokkr head cut from her 2K left and front views, horns and guns left off.
+
+- `concept_side_front.png`: GPT Image 2.6 Sunburst paint-over of `render_guide_maw.png` with the Explorer stern-ramp sheet as a second reference (OpenArt fRmR74ct14Z56RO4ngIm, low 2K, Personal Project). Port side and front. Small horn stubs crept onto the brow corners. Awaiting Aaron.
