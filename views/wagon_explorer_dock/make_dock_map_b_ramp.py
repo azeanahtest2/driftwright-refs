@@ -37,7 +37,7 @@ def plan_and_section(tag,title,out_m,note):
     def P(z,x): return (ox+(z-mx0)*PPM, oy+(x+HULL_X)*PPM)
     def rect(z0,z1,x0,x1,fill,outline=(70,70,70),w=2): g.rectangle([P(z0,x0),P(z1,x1)],fill=fill,outline=outline,width=w)
     rect(NOSE_SKIN,Z_AFT+0.35,-X_IN-0.2,X_IN+0.2,(205,205,212))           # body
-    rect(DOCK_Z0,stern,-HULL_X,HULL_X,(196,200,208))                     # dock section
+    rect(DOCK_Z0,stern,-X_IN-0.2,X_IN+0.2,(196,200,208))                     # dock section
     rect(NOSE_SKIN+0.4,Z_CK,-1.95*K,1.95*K,(230,214,170)); g.text(P(Z_NOSE+0.3,-0.4),'cockpit',fill=(40,40,40),font=FS)
     rect(Z_CK,GAL[0],-X_IN,X_IN,(214,226,214)); g.text(P(Z_CK+0.2,-0.4),'equipment',fill=(40,40,40),font=FS)
     for sx in (-1,1): g.rectangle([P(HATCH_Z-HATCH_W/2,sx*(X_IN+0.2)-0.15),P(HATCH_Z+HATCH_W/2,sx*(X_IN+0.2)+0.15)],fill=(210,170,40))
@@ -53,11 +53,11 @@ def plan_and_section(tag,title,out_m,note):
     g.rectangle([P(ez0-1.4,-0.85),P(ez0,0.85)],fill=(210,170,60),outline=(120,60,20),width=2)
     for k in range(4): zz=ez0-1.4+0.3+k*0.3; g.line([P(zz,-0.7),P(zz,0.7)],fill=(120,90,30),width=2)
     g.rectangle([P(DOCK_Z0,-1.0),P(DOCK_Z0+0.35,1.0)],fill=(200,120,40),outline=(120,60,20),width=2)
-    g.text(P(DOCK_Z0+0.1,-2.75),'her stern ramp down; pressure collar',fill=(120,50,10),font=FS)
+    g.text(P(DOCK_Z0+0.1,-X_IN-0.75),'her stern ramp down; pressure collar',fill=(120,50,10),font=FS)
     g.rectangle([P(Z_AFT,-1.0),P(Z_AFT+0.35,1.0)],fill=(200,120,40))   # the door aft of the bunks, on the centre line
-    g.text(P(DOCK_Z0+0.1,DOCK_X-0.55),'door on the centre line, stair down to the living deck',fill=(40,40,40),font=FS)
-    g.text(P(DOCK_Z0+0.1,-DOCK_X+0.2),'dock deck (over the engines)',fill=(40,40,40),font=FS)
-    if tag=='B': g.text(P(stern+0.1,-EX_W/2-0.9),'gasket collar',fill=(120,50,10),font=FS); g.line([P(stern,-EX_W/2-0.3),P(stern,EX_W/2+0.3)],fill=(200,120,40),width=6)
+    g.text(P(DOCK_Z0+0.1,X_IN+0.35),'centre-line door; about 0.35 m clear each side of her',fill=(40,40,40),font=FS)
+    g.text(P(DOCK_Z0+0.1,-X_IN-1.35),'dock deck (over the engines), trimmed to the hull width',fill=(40,40,40),font=FS)
+    if tag=='B': g.text(P(stern+0.1,-X_IN-0.75),'gasket collar',fill=(120,50,10),font=FS); g.line([P(stern,-X_IN-0.2),P(stern,X_IN+0.2)],fill=(200,120,40),width=6)
     if tag=='A':
         for sx in (-1,1): g.rectangle([P(stern-0.2,sx*1.3-0.35),P(stern+0.05,sx*1.3+0.35)],fill=(200,120,40))
         g.text(P(stern-3.2,-EX_W/2-0.9),'gun ports',fill=(120,50,10),font=FS)

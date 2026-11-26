@@ -27,3 +27,5 @@ Conceptual design: stays with Aaron until he says to share it.
 ## Map B with the stern ramp (2026-11-26)
 
 Aaron chose B ("I like B the most"). `dock_map_b_stern_ramp.png` (from `make_dock_map_b_ramp.py`): the Wagon at 23.0 m, the Explorer docked facing aft as the tail gun, her stern ramp folding forward onto the dock deck inside a pressure collar on the dock's forward wall. The door from the living quarters is back on the centre line, as in Joe's layout.
+
+Aaron (14:38): "trim the extra width of the bay area". The dock section is now the body's width (about 5.5 m outside); the Explorer (4.4 m) sits in it with about 0.35 m clear each side.
