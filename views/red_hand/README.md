@@ -12,3 +12,7 @@ Aaron, 13:21: "save both fighters. one for in flight and one with landing gear p
 - `fighter_flight.png`: take 2's hero view, in flight, no landing gear, the bolts removed.
 - `fighter_parked.png`: take 1's hero view, parked on its landing struts.
 - `breacher.png`: take 1's hero view, with its wings and folded claws, and the saw-toothed drill ring from its head-on render on the nose.
+
+## Breacher v2 (Aaron, 14:05: "i hope the saw blades don't render that far back during flight? they should be at the nose tip and claws go around it while the tongue shoves inside the hull.")
+
+`breacher.png` put the saw ring back round the body. `breacher_v2.png` redraws the craft from the take 1 sheet alone: the saw ring is the nose tip, the iris-closed boarding tube (the tongue) inside it, the four claws reaching forward around it. `breacher_v2_alt.png` is the other take (lighter plate), not used.
