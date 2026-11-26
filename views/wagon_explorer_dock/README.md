@@ -10,3 +10,10 @@ Aaron, 26 Nov 13:13: "read the specs on the wagon and consider its designs. You 
 - The scaled Wagon lands on the Anvilhawk's flight deck (45 x 23 m) with about 7 m clear at each end, but is too long for its lift (about 15 m).
 
 Conceptual design: stays with Aaron until he says to share it.
+
+## Flatbed (Aaron, 26 Nov 13:48 and 13:57)
+
+- 13:48: "make the scaled up wagon more of a flatbed than an enclosed bay. having the minecart have a deck to land on in space or drive up ramp to on land". `pass3_flatbed_abc.png` (OpenArt `LBi7lkZjxt8H17tc5rXh`): A open flatbed and ramp, B roll-cage arch and hoist, C tilting cradle.
+- 13:57: "Put a cargo arm on the chassis hanging over the bed instead of the rack like in B. make a combination of A & C with the burners closer together and three across the same ratio size against the entire cab as the approved model has. Reduce the size of the scaled up wagon to the smallest size that can hold the MC Explorer with 1.5 meters on either side of it across the bed. give it 2 meters from edge of MC Explorer to edge of Wagon model". Size: bed 7.4 m inside its rails, hull 8.4 m outside, bed 11.4 m long (2 m fore and aft), the approved front section at 1.18x (about 15.3 m), so about 26.7 x 8.4 x 7.8 m.
+- `pass4_combined_wrong_scale.png` (OpenArt `gqmd9I5OqJe4IuyNA2d6`): the combined design, but drawn with a bed about 27 m long (the whole about 43 m); not to scale (Aaron 14:01: "cab is too small now").
+- `true_scale_guide.png` (`make_true_scale_guide.py`, no credits): dwarf to Hammerhead from the approved side views at true scale, and the flatbed Wagon enlarged with its dimensions (front section 57%, bed 43%). For checking the next drawing.
