@@ -15,4 +15,4 @@ Aaron, 25 Nov 19:24: "design versions of the Anvilhawk without the cargo arm on 
 
 All views are 2048 px squares at one shared scale, the ship 94% of the square's width. She is 125 m overall (Aaron, 25 Nov 19:45).
 
-**Status:** waiting on Aaron's approval of the sheet before any Tripo build (detailed geometry, 4K textures, as round 153).
+**Status:** approved by Aaron 25 Nov 20:24 (the cargo arm he saw was the old ship in the comparison); two Tripo takes queued (detailed geometry, 4K textures, 300k faces, seeds 11 and 29, as round 153).
