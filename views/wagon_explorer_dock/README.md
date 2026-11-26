@@ -31,3 +31,9 @@ Aaron chose B ("I like B the most"). `dock_map_b_stern_ramp.png` (from `make_doc
 Aaron (14:38): "trim the extra width of the bay area". The dock section is now the body's width (about 5.5 m outside); the Explorer (4.4 m) sits in it with about 0.35 m clear each side.
 
 Aaron (26 Nov 16:44): "I decided I don't like it. Remove the takes that include any Brokkr reference". The Brokkr bridge-and-maw Wagon (`views/wagon_maw/`: map, guide, first concept, three new designs) is removed; it stays in git history (commits 25fa1aa to 173e3c8). Map B with the stern ramp stands.
+
+## Dock concepts on map B (2026-11-26 16:52)
+
+Aaron: "I still want to conceptualize a scaled wagon to include the minecart scout in the stern secured with a seal. just not with the Brokkr's art concepts"
+
+- `dock_concept_A.png`, `_B.png`, `_C.png` (sheet `dock_concepts_abc.jpg`): GPT Image 2.6 Sunburst paint-overs of `render_guide_b.png` (uploaded as wagon_explorer_render_guide.png), with Joe's Wagon port side and back views and the Explorer stern-ramp sheet as references (OpenArt y523uEZxByqfdPANcU0W, low 2K: A fUrsjzvqF7Dv2c6rSJWK, B uvLYTLZN7CPv7s3Cr8NA, C xcUs2Yx446ON3CeIU5Z6). Port side and stern. A: an open ribbed cage dock; B: a smooth plated dock with three clamp bands and a round collar; C: a strapped dock with a squared collar. Awaiting Aaron's pick.
