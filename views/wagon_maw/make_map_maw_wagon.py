@@ -49,15 +49,20 @@ top=ImageOps.mirror(cut(ex.crop((0,int(Hd*0.5),int(Wd*0.45),Hd)))).resize((round
 out.paste(top,(round(P(EZ0,0)[0]),round(P(0,-EX_W/2)[1])),top)
 g.line([P(L,-XO),P(L,XO)],fill=(200,120,40),width=7); g.text(P(L+0.1,-XO-0.6),'gasket collar',fill=(120,50,10),font=FS)
 # ---- lower deck
-P=plan(560,'Lower deck, floor 1.0 m: the maw, ore catcher and debris conveyor to the rear bay')
+P=plan(560,'Lower deck, floor 1.0 m: the maw, ore catcher, the conveyor to the rear bay, and the service stations to port')
 g.polygon([P(0,-1.8),P(0,1.8),P(1.2,1.6),P(1.2,-1.6)],fill=(60,40,30)); g.text(P(0.05,XO+0.15),'the maw (open to space)',fill=(30,30,30),font=FS)
 box(P,1.2,4.6,-XI,XI,(150,120,95))
 for k in range(7): z=1.4+k*0.45; g.line([P(z,-1.7),P(z+0.3,0),P(z,1.7)],fill=(90,70,50),width=3)
 g.text(P(1.3,-XI+0.1),'ore catcher:\ngrate and\ncrusher jaws',fill=(250,240,220),font=FS)
-box(P,4.6,R['lock'][1]+2.0,-0.8,0.8,(110,110,118))
-for z in np.arange(4.8,R['lock'][1]+2.0,0.5): g.line([P(z,-0.8),P(z,0.8)],fill=(70,70,78),width=2)
-g.text(P(5.0,-0.6),'debris conveyor, 1.6 m belt, running aft  >>>',fill=(240,240,240),font=FS)
-box(P,4.6,R['lock'][1],0.9,XI,(215,215,220),'service walkway'); box(P,4.6,R['lock'][1],-XI,-0.9,(200,190,170),'belt drive, rollers, bins')
+# conveyor along the starboard wall, walkway down the middle, the service stations to port (Aaron, 15:04)
+box(P,4.6,R['lock'][1]+2.0,0.9,XI,(110,110,118))
+for z in np.arange(4.8,R['lock'][1]+2.0,0.5): g.line([P(z,0.9),P(z,XI)],fill=(70,70,78),width=2)
+g.text(P(5.0,1.3),'debris conveyor, 1.6 m belt, running aft  >>>',fill=(240,240,240),font=FS)
+box(P,4.6,R['lock'][1],-0.25,0.9,(222,222,226)); g.text(P(9.4,0.05),'walkway',fill=(60,60,60),font=FS)
+ST=[(4.8,5.8,-XI,-1.3,(196,160,120),'claw\npost'),(6.0,7.0,-XI,-1.3,(196,180,150),'hold\ncontrol\npost'),
+    (7.3,11.8,-XI+0.05,-0.35,(150,110,90),'long boiler: the Hammerhead\'s\nforge-pit boiler, 4.5 m,\nlying lengthwise'),
+    (12.1,13.5,-XI,-0.9,(176,170,190),'fabricator'),(13.7,15.4,-XI,-1.2,(190,190,170),'parts and\ntool racks')]
+for z0,z1,x0,x1,c,t in ST: box(P,z0,z1,x0,x1,c,t)
 box(P,R['lock'][1],R['lock'][1]+2.6,-XI,XI,(170,140,100),'ore hopper\n(under the\ndock deck)')
 box(P,R['lock'][1]+2.6,L,-XI,XI,(190,170,150),'engines; the hopper\nchutes to the\ncargo bins')
 # ---- section from port
@@ -76,7 +81,9 @@ for k,(n,(a,b)) in enumerate(R.items()):
     g.line([S(b,UP),S(b,CEIL)],fill=(90,90,90),width=2)
     g.text(S(a+0.15,UP+2.3-(k%2)*0.5),{'bridge':'bridge','equip':'equipment','galhead':'galley / head','bunks':'bunks','lock':'airlock'}[n],fill=(30,30,30),font=FS)
 g.text(S(1.3,2.9),'ore catcher',fill=(30,30,30),font=FS)
-g.rectangle([S(4.6,1.25),S(R['lock'][1]+1.2,1.55)],fill=(110,110,118)); g.text(S(5.0,2.6),'debris conveyor, 2.8 m clear, runs aft >>>',fill=(30,30,30),font=FS)
+g.rectangle([S(4.6,1.25),S(R['lock'][1]+1.2,1.55)],fill=(110,110,118)); g.text(S(4.7,3.5),'conveyor (starboard), runs aft >>>',fill=(30,30,30),font=FS)
+g.rounded_rectangle([S(7.3,3.1),S(11.8,1.0)],radius=22,fill=(150,110,90),outline=(80,50,40),width=2); g.text(S(7.5,2.4),'long boiler (port side)',fill=(250,235,220),font=FS)
+g.rectangle([S(12.1,2.6),S(13.5,1.0)],fill=(176,170,190),outline=(70,70,70),width=2); g.text(S(12.15,2.3),'fabricator',fill=(30,30,30),font=FS)
 g.polygon([S(R['lock'][1],DOCK-0.2),S(R['lock'][1]+2.6,DOCK-0.2),S(R['lock'][1]+1.8,1.0),S(R['lock'][1]+0.8,1.0)],fill=(170,140,100),outline=(90,70,40))
 g.text(S(R['lock'][1]+2.7,2.0),'ore hopper',fill=(30,30,30),font=FS)
 g.line([S(R['lock'][1],DOCK),S(L,DOCK)],fill=(50,50,50),width=4); g.text(S(R['lock'][1]+0.2,DOCK+0.3),'dock deck 3.5 m',fill=(30,30,30),font=FS)
