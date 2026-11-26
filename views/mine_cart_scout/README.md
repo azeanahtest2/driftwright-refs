@@ -7,3 +7,7 @@ Aaron, 25 Nov 22:17: "find the mine cart's drawings & artwork. build new renderi
 - **Aaron picked A** (25 Nov 22:34). Named the **Mine Cart Explorer**: a separate variant, not a replacement; v3 stays as she is (Aaron, 22:35, "Variant. Mine Cart Explorer"). Next: an orthographic views sheet only, no build yet (OpenArt `O47pL3zsLFsOWDyn4Mmw`).
 
 Conceptual design: stays with Aaron until he says to share it.
+
+## Locked (Aaron, 26 Nov 13:13)
+
+"This minecart scout should be locked in as the variant of the minecart." The Mine Cart Explorer's views: `views_sheet.png`, OpenArt `xHzJeIywLczCrPeNXoJY` (GPT Image 2.6 Sunburst, low, 2K): port side, front, starboard side, top and back at one scale. Four tracks, two per side (forward under the cab, aft under the flatbed), as take A (Aaron, 25 Nov 23:59: "she should have four tracks like I chose in option A"). No Tripo build yet.
