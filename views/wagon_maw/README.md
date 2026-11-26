@@ -16,3 +16,9 @@ Aaron (15:04): "I'm amenable to the design. it's loosely what I asked for. / ins
 - `render_guide_maw.png` (from `make_render_guide_maw.py`, which reads `_render_guide_b_base.py`): true-scale paint-over guide, port side and front, the Brokkr head cut from her 2K left and front views, horns and guns left off.
 
 - `concept_side_front.png`: GPT Image 2.6 Sunburst paint-over of `render_guide_maw.png` with the Explorer stern-ramp sheet as a second reference (OpenArt fRmR74ct14Z56RO4ngIm, low 2K, Personal Project). Port side and front. Small horn stubs crept onto the brow corners. Awaiting Aaron.
+
+## New design (2026-11-26 15:31)
+
+Aaron: "Horns are fine, invited even. / Create a new version that has these features but has a completely new design that is built for the new version"
+
+- `new_design_A.png`, `_B.png`, `_C.png` (sheet `new_design_abc.jpg`): GPT Image 2.6 Sunburst, low 2K, three variants (OpenArt OWb1MZrpAusC2IhbMhh4: A D4jcruYpuV2xCLmEiOfx, B KfPdI1whsUb2nQCROFgk, C wp6Xnie3qbMcNdjCY3Z7). One continuous stone-and-bronze hull in Brokkr's style, horns on the head, the guide's size and layout: bridge brow windows, moustache over the maw with crusher jaws, five claws, upper-deck portholes and side hatch with ladder, a lit conveyor run low along the hull, the Explorer's nose in the stern collar, twin engines aft, skids. Awaiting Aaron's pick.
