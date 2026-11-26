@@ -11,3 +11,9 @@ Conceptual design: stays with Aaron until he says to share it.
 ## Locked (Aaron, 26 Nov 13:13)
 
 "This minecart scout should be locked in as the variant of the minecart." The Mine Cart Explorer's views: `views_sheet.png`, OpenArt `xHzJeIywLczCrPeNXoJY` (GPT Image 2.6 Sunburst, low, 2K): port side, front, starboard side, top and back at one scale. Four tracks, two per side (forward under the cab, aft under the flatbed), as take A (Aaron, 25 Nov 23:59: "she should have four tracks like I chose in option A"). No Tripo build yet.
+
+## Stern ramp (2026-11-26)
+
+Aaron: "I like B the most, but we may have to rebuld the minecart & minecart scout's door to be a back ramp instead of sideways. make that change"
+
+- `views_sheet_stern_ramp.png`: GPT Image 2.6 Sunburst edit of `views_sheet.png` (OpenArt tsJpWOcu8zPPtVNPTsIG, low 2K). Port side door plated over; a fold-down stern ramp about 1.2 x 1.3 m, hinged at the bottom, between the two stern thrusters. Everything else unchanged. Awaiting Aaron.
