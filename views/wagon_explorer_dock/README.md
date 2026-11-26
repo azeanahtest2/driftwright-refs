@@ -29,3 +29,5 @@ Conceptual design: stays with Aaron until he says to share it.
 Aaron chose B ("I like B the most"). `dock_map_b_stern_ramp.png` (from `make_dock_map_b_ramp.py`): the Wagon at 23.0 m, the Explorer docked facing aft as the tail gun, her stern ramp folding forward onto the dock deck inside a pressure collar on the dock's forward wall. The door from the living quarters is back on the centre line, as in Joe's layout.
 
 Aaron (14:38): "trim the extra width of the bay area". The dock section is now the body's width (about 5.5 m outside); the Explorer (4.4 m) sits in it with about 0.35 m clear each side.
+
+Aaron (26 Nov 16:44): "I decided I don't like it. Remove the takes that include any Brokkr reference". The Brokkr bridge-and-maw Wagon (`views/wagon_maw/`: map, guide, first concept, three new designs) is removed; it stays in git history (commits 25fa1aa to 173e3c8). Map B with the stern ramp stands.
