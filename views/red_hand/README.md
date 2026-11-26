@@ -6,3 +6,9 @@ Aaron, 13:21: "save both fighters. one for in flight and one with landing gear p
 - `fighter_sheet_take2.jpg`: round 169's fighter take 2 (in flight): source of the flying fighter.
 - `breacher_sheet_take1.jpg`: round 170's breacher take 1: wings, nose drill, size and claws.
 - The clean views for Tripo, isolated from these sheets, follow in this folder.
+
+## Tripo views (isolated from the sheets with OpenArt Nano Banana 2, 1K, 26 Nov 13:25)
+
+- `fighter_flight.png`: take 2's hero view, in flight, no landing gear, the bolts removed.
+- `fighter_parked.png`: take 1's hero view, parked on its landing struts.
+- `breacher.png`: take 1's hero view, with its wings and folded claws, and the saw-toothed drill ring from its head-on render on the nose.
