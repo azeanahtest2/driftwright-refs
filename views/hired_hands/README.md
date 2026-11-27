@@ -8,3 +8,9 @@ For the Anvilhawk's hired hands (Fleet Voyages `docs/handoff/2026-11-26-hired-ha
 Made for: the Anvilhawk's twelve spare berths (Fleet Voyages `scripts/hands.gd`). Awaiting Aaron's pick.
 
 Aaron picked **A**. Model sheets (GPT Image 2, low, 2K; OpenArt maintenance dGlOi5qYqpLFrVLqsKDQ / TRLZWFus7NUp7CAaUQNH, nurse dRQtsWVgQFejnkfjqc5D / sFqVWPH89f7jQ1RUc3xi with the cross replaced by a plain red band, security FDIsY96nwsdw8CZL93TU / zRtrQ2staNE3UWZsNbiQ), from concept A and the crew's A-pose reference: `views/hand_maintenance/`, `views/hand_nurse/`, `views/hand_security/` (sheet, front, back, concept). Front and back go to Tripo with the round 162 crew's settings.
+
+## Direction changed (Aaron, 27 Nov 16:21), before any Tripo spend
+
+Aaron: "It should be noted to use the leather under-model and various suits should be crafted and applied for each. We already have security armor in the game with game pieces. The others need to follow suit. we can add mechanics for what they start with and upgrade paths with the armor and equipment settings that we have started"
+
+So the hands are not separate whole-body builds: each is body D (`base_body`, Mixamo-rigged, idle and walk) in the Leather set (round 59, `leather5_whole` split into cap, jerkin, gloves, breeches, boots), with a department suit on top, split into the same slots through `ArmourFit`. The security hand wears the Security set as it is. The maintenance and nurse suits are new sets to draw on body D (the looks in concept A and the model sheets here are their starting point). No rigs needed: body D already animates. The `hand_*` model sheets are kept as look references only; nothing was sent to Tripo.
