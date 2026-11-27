@@ -37,3 +37,9 @@ Aaron (26 Nov 16:44): "I decided I don't like it. Remove the takes that include 
 Aaron: "I still want to conceptualize a scaled wagon to include the minecart scout in the stern secured with a seal. just not with the Brokkr's art concepts"
 
 - `dock_concept_A.png`, `_B.png`, `_C.png` (sheet `dock_concepts_abc.jpg`): GPT Image 2.6 Sunburst paint-overs of `render_guide_b.png` (uploaded as wagon_explorer_render_guide.png), with Joe's Wagon port side and back views and the Explorer stern-ramp sheet as references (OpenArt y523uEZxByqfdPANcU0W, low 2K: A fUrsjzvqF7Dv2c6rSJWK, B uvLYTLZN7CPv7s3Cr8NA, C xcUs2Yx446ON3CeIU5Z6). Port side and stern. A: an open ribbed cage dock; B: a smooth plated dock with three clamp bands and a round collar; C: a strapped dock with a squared collar. Awaiting Aaron's pick.
+
+## Take C to scale (2026-11-27)
+
+Aaron (10:08): "C is closest - now rebuild the concept to scale: doors & steps, bay door, bridge should be updated to the correct scale"
+
+`dock_c_scale_marks.png` (from `make_dock_c_scale_marks.py`): take C at 59 px/m with true sizes marked in cyan, and 1.5 m dwarves (Grimrivet restyle front, player.gd v027 height). Her living deck scales with the hull to 2.36 m; on it the side hatch at Joe's size (1.3 x 2.3 m) with seven fold-down steps to the ground, the bay door (the hazard panel midships) as a 2.0 x 2.3 m crew and cargo door on the same sill, roof-ladder rungs 0.3 m apart, and the bridge panes (0.5 x 0.7 m) at the eye of a dwarf at the helm on the cockpit deck (3.2-3.9 m above the ground), not 5.4-5.9 m as drawn.
