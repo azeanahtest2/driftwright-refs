@@ -6,3 +6,5 @@ For the Anvilhawk's hired hands (Fleet Voyages `docs/handoff/2026-11-26-hired-ha
 - Both drew a red cross on the nurse's bag, which wasn't asked for and is a protected emblem: to be replaced with a plain red band or patch in the model sheet.
 
 Made for: the Anvilhawk's twelve spare berths (Fleet Voyages `scripts/hands.gd`). Awaiting Aaron's pick.
+
+Aaron picked **A**. Model sheets (GPT Image 2, low, 2K; OpenArt maintenance dGlOi5qYqpLFrVLqsKDQ / TRLZWFus7NUp7CAaUQNH, nurse dRQtsWVgQFejnkfjqc5D / sFqVWPH89f7jQ1RUc3xi with the cross replaced by a plain red band, security FDIsY96nwsdw8CZL93TU / zRtrQ2staNE3UWZsNbiQ), from concept A and the crew's A-pose reference: `views/hand_maintenance/`, `views/hand_nurse/`, `views/hand_security/` (sheet, front, back, concept). Front and back go to Tripo with the round 162 crew's settings.
